@@ -1,0 +1,20 @@
+[requires]
+TBB/2018.2@zatm8/stable
+IdealCouscous/v0.1.2@zatm8/testing
+cds/2.3.1@zatm8/testing
+
+[generators]
+qbs
+
+[options]
+TBB:shared=True
+cds:shared=True
+
+[imports]
+bin, *.dll -> /home/zatm8/projects/build-event-system-Desktop-Debug/qtc_Desktop_Debug/install-root/lib
+lib, *.dylib* -> /home/zatm8/projects/build-event-system-Desktop-Debug/qtc_Desktop_Debug/install-root/lib
+lib, *.so* -> /home/zatm8/projects/build-event-system-Desktop-Debug/qtc_Desktop_Debug/install-root/lib
+
+bin, *.dll -> /home/zatm8/projects/build-event-system-Desktop-Debug/qtc_Desktop_Debug/install-root/lib
+lib, *.dylib* -> /home/zatm8/projects/build-event-system-Desktop-Debug/qtc_Desktop_Debug/install-root/lib
+lib, *.so* -> /home/zatm8/projects/build-event-system-Desktop-Debug/qtc_Desktop_Debug/install-root/lib
